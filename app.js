@@ -21,11 +21,13 @@ navToggle.addEventListener("click", function(){
     else{
         linksContainer.style.height = 0;    
     }
-})
+});
 
+const navbar = document.getElementById("nav");
+const topLink = document.querySelector(".top-link")
 // ********** fixed navbar ************
-window.addEventListener("click", function(){
-    
+window.addEventListener("scroll", function(){
+
 })
 
 // ********** smooth scroll ************
