@@ -34,7 +34,7 @@ window.addEventListener("scroll", function(){
     }else{
         navbar.classList.remove("fixed-nav")
     }
-})
+});
 
 // ********** smooth scroll ************
 // select links
