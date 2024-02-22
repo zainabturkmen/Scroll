@@ -27,7 +27,11 @@ const navbar = document.getElementById("nav");
 const topLink = document.querySelector(".top-link")
 // ********** fixed navbar ************
 window.addEventListener("scroll", function(){
-
+    const scrollHeight = window.pageYOffset;
+    const navHeight = navbar.getBoundingClientRect().height;
+    if(scrollHeight > navHeight){
+        
+    }
 })
 
 // ********** smooth scroll ************
