@@ -33,7 +33,7 @@ window.addEventListener("scroll", function(){
         navbar.classList.add("fixed-nav")
     }else{
         navbar.classList.remove("fixed-nav")
-    }
+    };
 });
 
 // ********** smooth scroll ************
